@@ -5,7 +5,7 @@
 set "HOME_DIR=%USERPROFILE%\.jfrog-docker-desktop-extension"
 set "LOGS_DIR=%HOME_DIR%\logs"
 
-set JFROG_CLI_HOME_DIR=%HOME_DIR%
+set "JFROG_CLI_HOME_DIR=%HOME_DIR%"
 set JFROG_CLI_USER_AGENT=jfrog-docker-extension
 set JFROG_CLI_LOG_LEVEL=INFO
 set CI=true
